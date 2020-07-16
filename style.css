@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 9px;
+    font-size: 10px;
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -12,7 +13,7 @@ a{
     display: flex;
     flex-direction: row;
 
-    width: 90%;
+    width: 100%;
 }
 .section-1-left{
     
@@ -85,7 +86,7 @@ button{
 .section-2{
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     height: 100px;
     
 }
@@ -94,7 +95,7 @@ button{
 }
 .section-2-left img{
     position: absolute;
-    width: 45%;
+    width: 50%;
     top: 10;
     left: 0;
     opacity: 0.3;
@@ -125,7 +126,7 @@ button{
     min-height: 50px;
 }
 .section-3{
-    width:90%;
+    width:100%;
     display: flex;
     flex-direction: row;
 }
@@ -154,16 +155,16 @@ button{
 }
 .section-3-left img{
     position: absolute;
-    width: 45%;
+    width: 50%;
     top: 10;
-    right: 10%;
+    right: 0%;
     opacity: 0.3;
     height: 100px;
 }
 .section-4{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     justify-items: center;
     align-items: center;
     background: #F4F4F4;
@@ -198,7 +199,7 @@ button{
 }
 .section-5{
     background: #FFF3F2;
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -232,7 +233,7 @@ button{
     margin-bottom: 2.5rem;
 }
 .section-6{
-    width: 90%;
+    width: 100%;
     justify-items: center;
     text-align: center;
     justify-content: center;
@@ -247,7 +248,7 @@ button{
     font-weight: normal;
 }
 footer{
-    width: 90%;
+    width: 100%;
     font-size: 1.5rem;
     justify-items: center;
     text-align: center;
@@ -255,3 +256,4 @@ footer{
     background-color: #F0F0F0;
     padding: 1rem;
 }
+
