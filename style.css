@@ -234,3 +234,27 @@ button{
     margin-top: 4rem;
     margin-bottom: 2.5rem;
 }
+.section-6{
+    width: 90%;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.section-6 button{
+    margin-bottom: 2rem;
+}
+.section-6 h2{
+    padding-top: 2rem;
+    font-size: 4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+}
+footer{
+    width: 90%;
+    font-size: 1.5rem;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #F0F0F0;
+    padding: 1rem;
+}
