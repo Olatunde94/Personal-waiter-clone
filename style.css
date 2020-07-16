@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 9px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.section-1{
+    display: flex;
+    flex-direction: row;
+
+    width: 90%;
+}
+.section-1-left{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background: #FFF3F2;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+.section-top{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4rem;
+}
+.section-top img{
+    width: 2rem;
+}
+.section-top p{
+    font-size: 1rem;
+}
+.section-top p b{
+    font-size: 1rem;
+}
+.section-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.section-bottom p{
+    font-size: 2.5rem;
+}
+.section-bottom p b{
+    font-weight: bold;
+    font-size: 3.2rem;
+}
+.section-bottom #extra{
+    font-size: 1rem;
+}
+button{
+    background-color: #FF6B6B;
+    color: white;
+    text-align: center;
+    width: 8rem;
+    border-radius: 1px;
+    margin-bottom: 4rem;
+    border-width: 0px;
+    padding: 0.4rem;
+    margin-top: 1rem;
+}
+#button-2{
+    background-color: #FF6B6B;
+    
+    text-align: center;
+    width: 6rem;
+    border-radius: 1px;
+    border-width: 0px;
+    padding: 0.4rem; 
+    margin-left: 100px;
+    margin-top: 1rem;
+}
+
+#button-2 a{
+    color: white;
+}
+.section-1-right{
+    background-image: url(free-delivery.jpg);
+    background-size: cover;
+    width: 50%;
+}
+.section-2{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 90%;
+    height: 100px;
+    
+}
+.section-2-left{
+    width: 50%;
+}
+.section-2-left img{
+    position: absolute;
+    width: 45%;
+    top: 10;
+    left: 0;
+    opacity: 0.3;
+    height: 100px;
+}
+.section-2-left #earn {
+    position: absolute;
+    margin-top: 2rem;
+    font-size: 2.9rem;
+    margin-left: 3rem;
+    
+}
+.section-2-left #ride {
+    position: absolute;
+    margin-top: 5.5rem;
+    margin-left: 3rem;
+    font-size: 0.9rem;
+}
+.section-2-left #work {
+    position: absolute;
+    margin-top: 7rem;
+    margin-left: 3rem;
+    font-size: 0.9rem;
+}
+.section-2-right{
+    background-color:#FFF3F2;
+    width: 50%;
+    min-height: 50px;
+}
+.section-3{
+    width:90%;
+    display: flex;
+    flex-direction: row;
+}
+.section-3-left{
+    width: 50%;
+    background-color: #FFF3F2;
+    height: 100px;
+}
+.section-3-left #money{
+    position: absolute;
+    margin-top: 2rem;
+    font-size: 2.9rem;
+    right: 6rem;
+}
+.section-3-left #around{
+    position: absolute;
+    margin-top: 5.5rem;
+    font-size: 0.9rem;
+    right: 6rem;
+}
+.section-3-left #and{
+    position: absolute;
+    margin-top: 7rem;
+    font-size: 0.9rem;
+    right: 6rem;
+}
+.section-3-left img{
+    position: absolute;
+    width: 45%;
+    top: 10;
+    right: 10%;
+    opacity: 0.3;
+    height: 100px;
+}
+.section-4{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: 1px solid black;
+    justify-items: center;
+    align-items: center;
+    background: #F4F4F4;
+}
+.section-4 h2{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.section-4-need{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem ;
+}
+.section-4-need-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem ;
+    width: 30%;
+    border-right: 1px solid black;
+    margin-top: 0;
+}
+.section-4-need-left img{
+    width: 20%;
+}
+.section-4-need-left p{
+    text-align: center;
+}
+#choke{
+    border-right: none;
+}
+.section-5{
+    background: #FFF3F2;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.section-5 h3{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+.section-5-bottom{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.section-5-left{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid black;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.section-5-right{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+}
