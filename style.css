@@ -85,7 +85,6 @@ button{
 .section-2{
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     width: 90%;
     height: 100px;
     
@@ -165,7 +164,6 @@ button{
     display: flex;
     flex-direction: column;
     width: 90%;
-    border: 1px solid black;
     justify-items: center;
     align-items: center;
     background: #F4F4F4;
@@ -218,7 +216,6 @@ button{
     display: flex;
     flex-direction: row;
     width: 100%;
-    border: 1px solid black;
     justify-items: center;
     text-align: center;
     justify-content: center;
